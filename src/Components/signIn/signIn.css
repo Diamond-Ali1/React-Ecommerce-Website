@@ -1,0 +1,67 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 20;
+  backdrop-filter: brightness(50%) blur(3px);
+}
+.logInModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  background-color: white;
+  max-width: 380px !important;
+  height: fit-content;
+  background-image: url('../../Images/background 2.jpg');
+  backdrop-filter: brightness(50%);
+  display: flex;
+  border-radius: 4px;
+}
+.logInModal > div {
+  margin: 10% 10%;
+}
+.closeWrapper {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+.closeModal {
+  position: absolute;
+  left: 105%;
+  top: -20px;
+  font-size: 1.3em;
+}
+.sign {
+  white-space: nowrap;
+}
+.sign *{
+    text-decoration: none;
+}
+@media (max-width: 450px) {
+  .closeWrapper {
+    width: 83%;
+  }
+  .input {
+    width: 270px !important;
+  }
+  .logInModal {
+    width: 80%;
+  }
+  .login{
+    width: fit-content;
+  }
+  .visible{left: 85.8%;}
+}
+@media (max-width: 350px) {
+    .closeWrapper {
+        width: 80%;
+      }
+      .sign{
+        word-wrap: break-word;
+      }
+}

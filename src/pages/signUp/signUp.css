@@ -1,0 +1,109 @@
+.topLevel * {
+  color: #090315;
+}
+.error {
+  color: red;
+}
+.textInput {
+  padding: 10px;
+  border: 1px solid #d7caf5;
+  box-shadow: none;
+  outline: none;
+  width: 275px;
+  border-radius: 4px;
+}
+.signUpHeading {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.submit {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #7655bb;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 275px;
+}
+.purple b {
+  color: #7655bb;
+  cursor: pointer;
+}
+.password {
+  padding: 10px;
+  border: 1px solid #d7caf5;
+  box-shadow: none;
+  outline: none;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+  width: 275px;
+}
+.relative {
+  position: relative;
+}
+.eye {
+  border-right: 1px solid #d7caf5;
+  border-top: 1px solid #d7caf5;
+  border-bottom: 1px solid #d7caf5;
+  padding: 14px 11px;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 240px;
+  cursor: pointer;
+  color: rgb(133, 130, 130);
+}
+.imageWrapper {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+.imageWrapper img {
+  max-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.imageSection {
+  height: 100vh;
+  position: relative;
+}
+.sign {
+  position: relative;
+  bottom: 19px;
+}
+.alert {
+  position: fixed;
+  width: 82%;
+  max-width: 50%;
+  z-index: 26;
+  right: 10%;
+}
+@media (max-width: 320px) {
+  .textInput {
+    width: 100%;
+    min-width: 100%;
+  }
+  .password {
+    width: 100%;
+  }
+  .eye {
+    left: 83.9%;
+  }
+  .submit {
+    width: fit-content !important;
+  }
+}
+@media (min-width: 992px) {
+  .textInput {
+    width: 270px;
+    min-width: 275px;
+  }
+  .password {
+    width: 275px;
+  }
+}

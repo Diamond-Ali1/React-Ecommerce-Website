@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Roboto Slab', serif;
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quintessential', cursive;
+}
+h2 div {
+  font-family: 'Quintessential', cursive;
+}
+
+.m-top {
+  margin-top: 70px;
+}

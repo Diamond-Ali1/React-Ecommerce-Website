@@ -1,0 +1,49 @@
+* li {
+  list-style: none;
+  margin: 20px 0;
+}
+* ul {
+  padding: 0;
+}
+footer {
+  background-color: rgba(229, 206, 173, 0.2);
+}
+footer > div > h2 {
+  font-size: 3.6em;
+}
+footer {
+  position: relative;
+}
+footer > div > input {
+  padding: 10px 8px;
+  outline: none;
+  border: 2px solid #7655bb;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+footer > div:nth-of-type(1) {
+  background-image: url('../../Images/background 2.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.contactIcons {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  font-size: 1.3em;
+  transition: 1s;
+}
+.contactIcons li:hover {
+  transform: scale(1.5, 1.5);
+  transition: 0.5s;
+}
+.contactField {
+  background-image: url('../../Images/background.jpg');
+}
+@media (max-width: 767px) {
+  .contactIcons {
+    position: relative;
+    justify-self: center;
+    left: 1%;
+  }
+}
