@@ -18,7 +18,6 @@ const duration = window.innerWidth > 676 ? 0.6 : 1.2;
 
 //homepage animation
 const homeAnimation = () => {
-  gsap.to('.background', { css: { visibility: 'visible' } });
   tl.from('.topImgShell', {
     duration: duration,
     y: 1000,
