@@ -63,7 +63,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <main className='background m-top'>
+      <main className='background-top m-top'>
         <div className=' container page relative flex flex-row flex-wrap-reverse flex-md-nowrap align-items-center'>
           <div className='col-md-6 leb'>
             <h2>

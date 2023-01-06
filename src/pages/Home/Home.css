@@ -1,7 +1,7 @@
 * {
   scroll-behavior: smooth;
 }
-.background {
+.background-top {
   background-image: url('../../Images/background 2.jpg');
   background-position: cover;
   background-repeat: no-repeat;
