@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Modals />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route exact path='/' element={<Home />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/favourites' element={<Favourites />} />
           <Route path='/signUp' element={<SignUp />} />
