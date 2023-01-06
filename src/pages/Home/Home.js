@@ -58,9 +58,9 @@ const Home = () => {
     }, 400);
   };
   //animation field
-  useEffect(() => {
-    animation();
-  }, []);
+  // useEffect(() => {
+  //   animation();
+  // }, []);
   return (
     <>
       <main className='background m-top'>

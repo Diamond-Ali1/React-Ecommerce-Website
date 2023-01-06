@@ -1,11 +1,10 @@
-*{
+* {
   scroll-behavior: smooth;
 }
 .background {
   background-image: url('../../Images/background 2.jpg');
   background-position: cover;
   background-repeat: no-repeat;
-
   overflow: hidden;
 }
 .page {
@@ -15,7 +14,7 @@
   width: 110%;
   height: 110%;
 }
-.topImgContainer{
+.topImgContainer {
   overflow: hidden;
   width: 110%;
   height: 110%;
@@ -23,7 +22,7 @@
 .page > div > h2 {
   font-size: 4em;
 }
-.textShell{
+.textShell {
   overflow: hidden;
   position: relative;
 }
@@ -168,7 +167,7 @@
   background-position: cover;
   background-repeat: no-repeat;
 }
-.bottomImgShell{
+.bottomImgShell {
   overflow: hidden;
 }
 .bottom > div > h2 {
@@ -230,10 +229,10 @@
     position: relative;
     top: 120px;
   }
-  .featured{
+  .featured {
     margin-top: 140px;
   }
-  .featuredText{
+  .featuredText {
     margin: 30px 0;
   }
   .page > div:nth-of-type(1) {
