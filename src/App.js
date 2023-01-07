@@ -22,7 +22,7 @@ function App() {
           <Route path='/shop' element={<Shop />} />
           <Route path='/favourites' element={<Favourites />} />
           <Route path='/signUp' element={<SignUp />} />
-          <Route path='*' element={<Home />} />
+          <Route default element={<Home />} />
         </Routes>
       </appContext.Provider>
     </>
