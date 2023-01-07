@@ -18,11 +18,11 @@ function App() {
         <Navbar />
         <Modals />
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/' element={<Shop />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/favourites' element={<Favourites />} />
           <Route path='/signUp' element={<SignUp />} />
-          <Route path='*' element={<Home />} />
+          <Route default element={<Home />} />
         </Routes>
       </appContext.Provider>
     </>
