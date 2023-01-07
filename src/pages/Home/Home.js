@@ -74,11 +74,11 @@ const Home = () => {
                 <div className='headingBoldText2'>Comfort</div>
               </div>
             </h2>
-            <p className='textShell'>
+            <div className='textShell'>
               <div className='headingText'>
                 Order the most comfortable, high quality, stylish furniture for your home.
               </div>
-            </p>
+            </div>
             <div className='textShell'>
               <div className='headingButton'>
                 <PaddedText
@@ -324,7 +324,7 @@ const Home = () => {
                 className='border-2 border-black border-solid pl-2 pt-2'
                 maxLength='400'
                 rows='5'
-                cols='33'
+                cols='31'
               />
               <div className='reviewRating'></div>
               <PaddedText
