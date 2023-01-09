@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './pages/Home/Home';
 import Shop from './pages/Shop';
@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Modals />
         <Routes>
-          <Route exact path='/' element={<Shop />} />
+          <Route exact path='/' element={<Home />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/favourites' element={<Favourites />} />
           <Route path='/signUp' element={<SignUp />} />

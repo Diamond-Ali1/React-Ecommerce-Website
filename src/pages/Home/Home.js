@@ -75,7 +75,7 @@ const Home = () => {
               </div>
             </h2>
             <div className='textShell'>
-              <div className='headingText'>
+              <div className='headingText text-2xl mb-3'>
                 Order the most comfortable, high quality, stylish furniture for your home.
               </div>
             </div>
