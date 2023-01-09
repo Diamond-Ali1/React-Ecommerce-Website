@@ -75,6 +75,9 @@ function CollapsibleExample() {
                 <AiOutlineShoppingCart />
               </b>
               <NavItem text='Cart' className='text-black' />
+              <div className=' bg-[#9784bf] text-white w-4 h-4 right-[-12px] top-[-4px] font-bold text-[0.7em] rounded-[50%] flex items-center justify-center absolute'>
+                4
+              </div>
             </div>
 
             <Link to={loggedIn ? '/shop' : '/signUp'} className='no-underline`'>
@@ -139,12 +142,15 @@ function CollapsibleExample() {
                       setShowCart(true);
                       toggleNav();
                     }}
-                    className='text-gray-900 hover:bg-gray-400/10 py-3 my-6 cursor-pointer flex flex-row items-center justify-center gap-1 text-center'
+                    className='text-gray-900 relative hover:bg-gray-400/10 py-3 my-6 cursor-pointer flex flex-row items-center justify-center gap-1 text-center w-[fit-content]'
                   >
                     <b className='text-xl font-bold'>
                       <AiOutlineShoppingCart />
                     </b>
                     <NavItem text='Cart' className='text-black' />
+                    <div className=' bg-[#9784bf] z-30 text-white w-4 h-4 right-[-12px] top-[12px] font-bold text-[0.7em] rounded-[50%] flex items-center justify-center absolute'>
+                      4
+                    </div>
                   </div>
 
                   <Link

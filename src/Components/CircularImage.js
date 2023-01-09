@@ -8,6 +8,7 @@ const CircularImg = props => {
     justifyContent: 'center',
     alignItems: 'center',
     textAlign: 'center',
+    background:props.backgroundColor,
     backgroundImage: props.background,
     backgroundSize: 'cover',
     backgroundPosition: '100%',
