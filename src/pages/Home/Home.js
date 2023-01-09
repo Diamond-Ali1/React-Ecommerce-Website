@@ -20,6 +20,7 @@ import Footer from '../../Components/footer/Footer';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { homeAnimation as animation } from '../../helpers/Animations.js';
+import { LandingPageProducts } from '../../Data/products';
 
 const productContext = createContext();
 
@@ -82,6 +83,10 @@ const Home = () => {
             <div className='textShell'>
               <div className='headingButton'>
                 <PaddedText
+                  onClick={() => {
+                    setSelectedProduct(LandingPageProducts[0]);
+                    setOpen(true);
+                  }}
                   text='Buy now'
                   color='white'
                   background='#9784bf'
@@ -142,6 +147,10 @@ const Home = () => {
                 This sofa will fit perfectly in your living room or in your hallway{' '}
               </p>
               <PaddedText
+                onClick={() => {
+                  setSelectedProduct(LandingPageProducts[1]);
+                  setOpen(true);
+                }}
                 className='mt-2 featuredButton'
                 text='Buy now'
                 color='white'
@@ -158,6 +167,10 @@ const Home = () => {
                 This table is very suitable for wrough iron sofa
               </p>
               <PaddedText
+                onClick={() => {
+                  setSelectedProduct(LandingPageProducts[2]);
+                  setOpen(true);
+                }}
                 className='mt-2 featuredButton'
                 text='Buy now'
                 color='white'

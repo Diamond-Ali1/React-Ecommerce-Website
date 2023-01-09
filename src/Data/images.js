@@ -6,6 +6,8 @@ import roundTable from '../Images/round table.jpg';
 import pinkChair from '../Images/pink chair.png';
 import greenChair from '../Images/green chair.jpg';
 import drawerChair from '../Images/drawer chair.jpg';
+import chair from '../Images/chair.png';
+import verse from '../Images/verse.webp'
 import chair2 from '../Images/chair2.png';
 import chair1 from '../Images/chair1.jpg';
 import chair4 from '../Images/chair4.jpg';
@@ -22,7 +24,6 @@ import profile6 from '../Images/profile6.jpg';
 import profile7 from '../Images/profile7.jpg';
 import profile8 from '../Images/profile8.jpg';
 import profile9 from '../Images/profile9.jpg';
-import chair from '../Images/chair.png';
 import brownCushion from '../Images/brown cushion.jpg';
 import signUpImage from '../Images/signUpPage.jpg';
 import signUpImage2 from '../Images/signUpPage1.jpg'
@@ -54,6 +55,7 @@ export {
   profile7,
   profile8,
   profile9, 
+  verse,
   signUpImage,
   signUpImage2
 };

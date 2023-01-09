@@ -16,6 +16,9 @@ import {
   chair9,
   chair10,
   chair11,
+  chair,
+  chair2,
+  verse,
 } from './images';
 
 const dummyDiscription = [
@@ -65,6 +68,38 @@ const dummyName = [
   'Tub Chair',
 ];
 
+const LandingPageProducts = [
+  {
+    title: 'pillow sitter with side table',
+    price: '270',
+    image: chair,
+    rating: { rate: 4.7, count: 500 },
+    brand: 'furniture',
+    id: 1,
+    description:
+      'This comfortable armchair is upholstered in soft, durable fabric and features a sturdy wooden frame.',
+  },
+  {
+    title: 'Leather sofa',
+    price: '550',
+    image: chair2,
+    rating: { rate: 4.4, count: 530 },
+    brand: 'furniture',
+    id: 2,
+    description:
+      'This stylish and contemporary sofa is perfect for relaxing and entertaining. It features a sleek design and plush cushions.',
+  },
+  {
+    title: 'Side verse',
+    price: '150',
+    image: verse,
+    rating: { rate: 4.9, count: 734 },
+    brand: 'furniture',
+    id: 3,
+    description:
+      'These planters combine the lightness and convenience of rubber with the earth-conscious soul of eco-friendly materials. The degradable rubber material comes in many colors and is perfect for bringing a bold, contemporary look to your dresser, bedroom, table, or living room.',
+  },
+];
 const dummyRating = [
   { rate: 3.9, count: 120 },
   { rate: 4.1, count: 259 },
@@ -171,6 +206,22 @@ products.map((product, i) => {
   product.id = i;
   product.addedToCart = false;
   product.brand = 'furniture';
+  product.colors = [
+    { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400' },
+    { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-400' },
+    { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900' },
+  ];
+  product.sizes = [
+    { name: 'XS', inStock: true },
+    { name: 'S', inStock: true },
+    { name: 'M', inStock: true },
+    { name: 'L', inStock: true },
+    { name: 'XL', inStock: true },
+  ];
+  return product;
+});
+LandingPageProducts.map(product => {
+  product.addedToCart = false;
   product.colors = [
     { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400' },
     { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-400' },
@@ -624,4 +675,4 @@ clothing.map(item => {
   return item;
 });
 
-export { products, clothing, tech };
+export { products, clothing, tech , LandingPageProducts};
