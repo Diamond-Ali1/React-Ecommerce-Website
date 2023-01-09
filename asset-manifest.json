@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Ecommerce-Website/static/css/main.621ec26b.css",
-    "main.js": "/React-Ecommerce-Website/static/js/main.e00308d7.js",
+    "main.js": "/React-Ecommerce-Website/static/js/main.2dbccbdf.js",
     "static/media/profile4.jpg": "/React-Ecommerce-Website/static/media/profile4.6f111c8c2a63a9b69db8.jpg",
     "static/media/chair9.jpg": "/React-Ecommerce-Website/static/media/chair9.32703870895146eefdf3.jpg",
     "static/media/chair10.jpg": "/React-Ecommerce-Website/static/media/chair10.4f0df14716b1cd9efad7.jpg",
@@ -36,13 +36,14 @@
     "static/media/chair1.jpg": "/React-Ecommerce-Website/static/media/chair1.13f1ab577ab00437c285.jpg",
     "static/media/profile9.jpg": "/React-Ecommerce-Website/static/media/profile9.ca9b23f7b473cdea5b67.jpg",
     "static/media/green chair.jpg": "/React-Ecommerce-Website/static/media/green chair.d6dc2cc3ed52174ed68b.jpg",
+    "static/media/verse.webp": "/React-Ecommerce-Website/static/media/verse.31980405de09e1b7d498.webp",
     "static/media/purpleLogo.webp": "/React-Ecommerce-Website/static/media/purpleLogo.53914418be07446af1be.webp",
     "index.html": "/React-Ecommerce-Website/index.html",
     "main.621ec26b.css.map": "/React-Ecommerce-Website/static/css/main.621ec26b.css.map",
-    "main.e00308d7.js.map": "/React-Ecommerce-Website/static/js/main.e00308d7.js.map"
+    "main.2dbccbdf.js.map": "/React-Ecommerce-Website/static/js/main.2dbccbdf.js.map"
   },
   "entrypoints": [
     "static/css/main.621ec26b.css",
-    "static/js/main.e00308d7.js"
+    "static/js/main.2dbccbdf.js"
   ]
 }
