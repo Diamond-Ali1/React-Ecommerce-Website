@@ -16,10 +16,10 @@ function CollapsibleExample() {
   const { handleModal, scrolled, setShowCart, setOpen, loggedIn, setSelectedProduct } =
     useContext(appContext);
   const cartProducts = [
-    ...localStorage.getItem('cartTech').split(' '),
-    ...localStorage.getItem('cartClothing').split(' '),
-    ...localStorage.getItem('cartFurniture').split(' '),
-  ];
+    localStorage.getItem('cartTech')?.split(' '),
+    localStorage.getItem('cartClothing')?.split(' '),
+    localStorage.getItem('cartFurniture')?.split(' '),
+  ].flat();
   const [nav, toggleNav] = useToggle();
   const handleClick = () => {
     if (window.innerWidth < 1024) {
