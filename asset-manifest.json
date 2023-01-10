@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Ecommerce-Website/static/css/main.7bf9b6dc.css",
-    "main.js": "/React-Ecommerce-Website/static/js/main.3fd59fe5.js",
+    "main.js": "/React-Ecommerce-Website/static/js/main.f2d94633.js",
     "static/media/profile4.jpg": "/React-Ecommerce-Website/static/media/profile4.6f111c8c2a63a9b69db8.jpg",
     "static/media/chair9.jpg": "/React-Ecommerce-Website/static/media/chair9.32703870895146eefdf3.jpg",
     "static/media/chair10.jpg": "/React-Ecommerce-Website/static/media/chair10.4f0df14716b1cd9efad7.jpg",
@@ -40,10 +40,10 @@
     "static/media/purpleLogo.webp": "/React-Ecommerce-Website/static/media/purpleLogo.53914418be07446af1be.webp",
     "index.html": "/React-Ecommerce-Website/index.html",
     "main.7bf9b6dc.css.map": "/React-Ecommerce-Website/static/css/main.7bf9b6dc.css.map",
-    "main.3fd59fe5.js.map": "/React-Ecommerce-Website/static/js/main.3fd59fe5.js.map"
+    "main.f2d94633.js.map": "/React-Ecommerce-Website/static/js/main.f2d94633.js.map"
   },
   "entrypoints": [
     "static/css/main.7bf9b6dc.css",
-    "static/js/main.3fd59fe5.js"
+    "static/js/main.f2d94633.js"
   ]
 }
