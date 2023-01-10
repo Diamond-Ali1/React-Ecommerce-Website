@@ -15,6 +15,11 @@ export const navContext = createContext();
 function CollapsibleExample() {
   const { handleModal, scrolled, setShowCart, setOpen, loggedIn, setSelectedProduct } =
     useContext(appContext);
+  const cartProducts = [
+    ...localStorage.getItem('cartTech').split(' '),
+    ...localStorage.getItem('cartClothing').split(' '),
+    ...localStorage.getItem('cartFurniture').split(' '),
+  ];
   const [nav, toggleNav] = useToggle();
   const handleClick = () => {
     if (window.innerWidth < 1024) {
@@ -75,9 +80,11 @@ function CollapsibleExample() {
                 <AiOutlineShoppingCart />
               </b>
               <NavItem text='Cart' className='text-black' />
-              <div className=' bg-[#9784bf] text-white w-4 h-4 right-[-12px] top-[-4px] font-bold text-[0.7em] rounded-[50%] flex items-center justify-center absolute'>
-                4
-              </div>
+              {cartProducts.length > 3 && (
+                <div className=' bg-[#9784bf] text-white w-4 h-4 right-[-12px] top-[-4px] font-bold text-[0.7em] rounded-[50%] flex items-center justify-center absolute'>
+                  {cartProducts.length - 3}
+                </div>
+              )}
             </div>
 
             <Link to={loggedIn ? '/shop' : '/signUp'} className='no-underline`'>
@@ -148,9 +155,11 @@ function CollapsibleExample() {
                       <AiOutlineShoppingCart />
                     </b>
                     <NavItem text='Cart' className='text-black' />
-                    <div className=' bg-[#9784bf] z-30 text-white w-4 h-4 right-[-12px] top-[12px] font-bold text-[0.7em] rounded-[50%] flex items-center justify-center absolute'>
-                      4
-                    </div>
+                    {cartProducts.length > 3 && (
+                      <div className=' bg-[#9784bf] z-30 text-white w-4 h-4 right-[-12px] top-[12px] font-bold text-[0.7em] rounded-[50%] flex items-center justify-center absolute'>
+                        {cartProducts.length - 3}
+                      </div>
+                    )}
                   </div>
 
                   <Link
