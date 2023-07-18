@@ -1,3 +1,7 @@
+live preview
+
+https://diamond-ali1.github.io/React-Ecommerce-Website/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
